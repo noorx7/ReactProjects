@@ -11,3 +11,6 @@ https://9056ca12.cloudflare-8qh.pages.dev/
 
  Complete Typescript Fitness Application. For frontend, i use React, Typescript, Vite, Tailwind CSS, Hero Icons, Framer Motion, Form Submit, React Anchor Link Smooth Scroll. I use Cloudflare Pages to deploy my website.
 
+
+
+Project 3 - Portfolio (Build in Progress)

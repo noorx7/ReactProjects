@@ -3,7 +3,9 @@ import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
+import LineGradient from "./components/LineGradient"
 import { motion } from "framer-motion";
+import MySkills from "./scenes/MySkills";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -43,6 +45,10 @@ function App() {
         >
           <Landing setSelectedPage={setSelectedPage} />
         </motion.div>
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+        <MySkills />
       </div>
     </div>
   )

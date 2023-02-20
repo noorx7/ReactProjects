@@ -1,4 +1,3 @@
-import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function DotGroup({ selectedPage, setSelectedPage }) {
